@@ -1,0 +1,22 @@
+.navbar2 {
+  position: fixed;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  background-color: gray;
+  padding: 10px 20px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.navbar2-ul {
+  list-style: none;
+  display: flex;
+  color: black;
+  margin-right: 20px;
+}
+.navbar2-li {
+  color: #333;
+}
