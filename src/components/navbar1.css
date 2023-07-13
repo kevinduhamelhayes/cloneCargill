@@ -2,14 +2,21 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   background-color: #fff;
   padding: 10px 20px;
   z-index: 999;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: large;
 }
+.navbar1-content {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: space-between;
+}
+
 .navbar1 ul {
   list-style: none;
   display: flex;
@@ -27,11 +34,18 @@
   border: none;
   border-radius: 3px;
 }
+
 .submit {
   padding: 5px 10px;
+  margin-right: 20px;
   margin-left: 10px;
   background-color: #333;
   color: #fff;
   border: none;
   border-radius: 3px;
+}
+.navbar1-li:hover {
+  color: #c88004;
+  text-shadow: 0px 0px 5px #fff;
+  text-decoration: underline;
 }

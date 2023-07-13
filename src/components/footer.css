@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  position: fixed;
+  top: 700px;
+  left: 0;
+  background-color: #fff;
+  color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: large;
+  height: 500px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: top;
+}
+.titulo-del-footer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #c77d0e;
+}

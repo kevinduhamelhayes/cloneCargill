@@ -1,22 +1,35 @@
 .navbar2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   position: fixed;
-  top: 90px;
+  top: 85px;
   left: 0;
   width: 100%;
   background-color: gray;
-  padding: 10px 20px;
   z-index: 999;
   display: flex;
+  justify-content: center;
+}
+.navbar2-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
   justify-content: space-between;
-  align-items: center;
-  gap: 60px;
 }
 .navbar2-ul {
+  align-items: center;
   list-style: none;
   display: flex;
+  width: 100%;
   color: black;
-  margin-right: 20px;
+  justify-content: space-between;
 }
 .navbar2-li {
+  position: relative;
   color: #333;
+}
+.navbar2-li:hover {
+  color: #c88004;
 }
