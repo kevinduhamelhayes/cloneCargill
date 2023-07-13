@@ -1,8 +1,8 @@
 .navbar2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  position: fixed;
-  top: 85px;
+  position: absolute;
+  top: 90px;
   left: 0;
   width: 100%;
   background-color: gray;
@@ -10,6 +10,11 @@
   display: flex;
   justify-content: center;
 }
+.navbar-2-scrolled {
+  position: fixed;
+  top: 0;
+}
+
 .navbar2-content {
   margin-top: 10px;
   margin-bottom: 10px;
